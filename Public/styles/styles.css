@@ -1,4 +1,7 @@
 /*applies to all pages*/
+* {
+    font-size: 1.4rem; 
+}
 body {
     width: 100%;
     max-width: 100w;
@@ -13,10 +16,14 @@ nav{
 }
 .nav-links {
     padding-bottom: 20px;
-    list-style-type:none; 
+    list-style-type:none;  
+    display: flex; 
+    gap: 120px; 
+    margin-left: 60px;
 }
 .nav-links-two {
     color: #FFFFFF;
+    text-decoration: none; 
 }
 footer{
     background-color: #063C5E;
@@ -33,11 +40,26 @@ footer{
     color: #FFFFFF;
     margin: 0;
     margin-left:10px;
+    
 }
 .footer-links{
     color: #FFFFFF;
     margin: 0;
     margin-left: 10px;
+    text-decoration: none; 
+}
+.container {
+    margin: 60px; 
+    border: solid #063C5E 5px;
+    padding: 25px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    space-between: 100px;
+    margin-left: 30px;
+    margin-bottom: 30px;
 }
 
 /* Index html file */
@@ -98,4 +120,11 @@ footer{
     text-decoration: underline; 
     color: #063C5E;
     font-weight: bold;
+}
+
+/*About Page*/
+.about-content {
+    text-align: center; 
+    color: #063C5E; 
+    font-weight: bold; 
 }
