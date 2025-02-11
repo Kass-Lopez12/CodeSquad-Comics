@@ -7,6 +7,7 @@ body {
     max-width: 100w;
     margin: 0;
     overflow-x: hidden;
+    background-image: linear-gradient(180deg, lightblue,teal);
 }
 nav{
     background-color:#063C5E;
@@ -33,7 +34,7 @@ footer{
     width: 150px;
 }
 .footer-headings {
-    color: #FFFFFF;
+    color: #FCCF14;
     margin-left: 10px;
 }
 .footer-words {
@@ -52,14 +53,16 @@ footer{
     margin: 60px; 
     border: solid #063C5E 5px;
     padding: 25px;
+    background-color: white; 
 }
 .footer-container {
     display: flex;
     justify-content: space-around;
     align-items: center; 
-    space-between: 100px;
+    place-content: 120px;
     margin-left: 30px;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
+    padding-top: 10px;
 }
 
 /* Index html file */
@@ -127,4 +130,33 @@ footer{
     text-align: center; 
     color: #063C5E; 
     font-weight: bold; 
+}
+
+/*Login Page*/
+.login-form {
+    display: flex; 
+    flex-direction: column; 
+    gap: 40px; 
+}
+.login-title {
+    text-align: center; 
+    color: #063C5E; 
+}
+.input-group {
+    text-align: center; 
+}
+.btn {
+    border: #063C5E solid 3px; 
+    width: 120px; 
+    color: #063C5E; 
+    background-color: #FCCF14; 
+    align-self: center; 
+}
+/*Create New Comic Page*/ 
+.new-comic-form {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    padding: 50px;
+    gap: 10px; 
 }
