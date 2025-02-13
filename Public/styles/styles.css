@@ -26,6 +26,18 @@ nav{
     color: #FFFFFF;
     text-decoration: none; 
 }
+nav a:hover {
+    color: #FCCF14; 
+    font-weight: bold; 
+}
+nav a:visited {
+    color: #FFFFFF;
+}
+nav a:active {
+    font-weight: bold; 
+    color: blue;
+    background-color: #FCCF14;
+}
 footer{
     background-color: #063C5E;
     border-top: 6px #FCCF14 solid; 
@@ -48,6 +60,18 @@ footer{
     margin: 0;
     margin-left: 10px;
     text-decoration: none; 
+}
+footer a:hover {
+    color: #FCCF14; 
+    font-weight: bold;
+}
+footer a:visited {
+    color: #FFFFFF;
+}
+footer a:active {
+    font-weight: bold; 
+    color: blue;
+    background-color: #FCCF14;
 }
 .container {
     margin: 60px; 
@@ -159,4 +183,41 @@ footer{
     align-items: center; 
     padding: 50px;
     gap: 10px; 
+}
+/*Admin Page*/
+.admin-page-title {
+    color: #063C5E; 
+    text-align: center; 
+}
+.admin-page-button {
+    background-color: #FCCF14;
+    color: #063C5E;
+    display:flex; 
+    align-self: center;
+}
+table, tr, th, td {
+    border: 2px solid #063C5E; 
+    border-collapse: collapse; 
+    height: 30px;
+    padding: 20px;
+    margin: 40px;
+}
+td {
+    text-align: left; 
+}
+/* :nth-child(odd){
+    background-color: grey;
+}*/
+.edit-btn {
+    background-color:#063C5E; 
+    color:#FFFFFF;
+}
+.delete-btn{
+    background-color: #FCCF14;
+    color:#063C5E;
+}
+/*Input Page*/ 
+.input-group {
+    display: flex; 
+    justify-content: center; 
 }
